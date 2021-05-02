@@ -21,52 +21,52 @@ LOOKUP['Z1POW'] = {'description': 'Zone 1 Power',
 LOOKUP['FPB'] = {'description': 'Front Panel Brightness',
                  '0': 'Off', '1': 'Low', '2': 'Medium', '3': 'High'}
 LOOKUP['Z1VOL'] = {'description': 'Zone 1 Volume'}
-LOOKUP['IDR'] = {'description': 'Region'}
+#***  LOOKUP['IDR'] = {'description': 'Region'}
 LOOKUP['IDM'] = {'description': 'Model'}
 LOOKUP['IDS'] = {'description': 'Software version'}
 LOOKUP['IDB'] = {'description': 'Software build date'}
 LOOKUP['IDH'] = {'description': 'Hardware version'}
-LOOKUP['IDN'] = {'description': 'MAC address'}
-LOOKUP['ECH'] = {'description': 'Tx status',
-                 '0': 'Off', '1': 'On'}
-LOOKUP['SIP'] = {'description': 'Standby IP control',
-                 '0': 'Off', '1': 'On'}
-LOOKUP['ICN'] = {'description': 'Active input count'}
+#***  LOOKUP['IDN'] = {'description': 'MAC address'}
+#*** LOOKUP['ECH'] = {'description': 'Tx status',
+#***                  '0': 'Off', '1': 'On'}
+#***    LOOKUP['SIP'] = {'description': 'Standby IP control',
+#***                     '0': 'Off', '1': 'On'}
+#***    LOOKUP['ICN'] = {'description': 'Active input count'}
 LOOKUP['Z1INP'] = {'description': 'Zone 1 current input'}
 LOOKUP['Z1MUT'] = {'description': 'Zone 1 mute',
                    '0': 'Unmuted', '1': 'Muted'}
-LOOKUP['Z1ARC'] = {'description': 'Zone 1 ARC',
+  LOOKUP['Z1ARCVAL'] = {'description': 'Zone 1 ARC',
                    '0': 'Off', '1': 'On'}
-LOOKUP['Z1VIR'] = {'description': 'Video input resolution',
-                   '0': 'No video', '1': 'Other', '2': '1080p60', '3': '1080p50',
-                   '4': '1080p24', '5': '1080i60', '6': '1080i50', '7': '720p60',
-                   '8': '720p50', '9': '576p50', '10': '576i50', '11': '480p60',
-                   '12': '480i60', '13': '3D', '14': '4K'}
-LOOKUP['Z1IRH'] = {'description': 'Active horizontal video resolution (pixels)'}
-LOOKUP['Z1IRV'] = {'description': 'Active vertical video resolution (pixels)'}
-LOOKUP['Z1AIC'] = {'description': 'Audio input channels',
-                   '0': 'No audio', '1': 'Other', '2': 'Mono (center channel)',
-                   '3': '2 channel', '4': '5.1 channel', '5': '6.1 channel',
-                   '6': '7.1 channel', '7': 'Atmos'}
+#*** LOOKUP['Z1VIR'] = {'description': 'Video input resolution',
+#***                    '0': 'No video', '1': 'Other', '2': '1080p60', '3': '1080p50',
+#***                    '4': '1080p24', '5': '1080i60', '6': '1080i50', '7': '720p60',
+#***                    '8': '720p50', '9': '576p50', '10': '576i50', '11': '480p60',
+#***                    '12': '480i60', '13': '3D', '14': '4K'}
+# LOOKUP['Z1IRH'] = {'description': 'Active horizontal video resolution (pixels)'}
+# LOOKUP['Z1IRV'] = {'description': 'Active vertical video resolution (pixels)'}
+# LOOKUP['Z1AIC'] = {'description': 'Audio input channels',
+#                    '0': 'No audio', '1': 'Other', '2': 'Mono (center channel)',
+#                    '3': '2 channel', '4': '5.1 channel', '5': '6.1 channel',
+#                    '6': '7.1 channel', '7': 'Atmos'}
 LOOKUP['Z1AIF'] = {'description': 'Audio input format',
                    '0': 'No audio', '1': 'Analog', '2': 'PCM', '3': 'Dolby',
                    '4': 'DSD', '5': 'DTS', '6': 'Atmos'}
-LOOKUP['Z1BRT'] = {'description': 'Audio input bitrate (kbps)'}
+# LOOKUP['Z1BRT'] = {'description': 'Audio input bitrate (kbps)'}
 LOOKUP['Z1SRT'] = {'description': 'Audio input sampling rate (hKz)'}
-LOOKUP['Z1AIN'] = {'description': 'Audio input name'}
-LOOKUP['Z1AIR'] = {'description': 'Audio input rate name'}
-LOOKUP['Z1ALM'] = {'description': 'Audio listening mode',
-                   '00': 'None', '01': 'AnthemLogic Movie', '02': 'AnthemLogic Music',
-                   '03': 'PLIIx Movie', '04': 'PLIIx Music', '05': 'Neo:6 Cinema',
-                   '06': 'Neo:6 Music', '07': 'All Channel Stereo',
-                   '08': 'All Channel Mono', '09': 'Mono', '10': 'Mono-Academy',
-                   '11': 'Mono (L)', '12': 'Mono (R)', '13': 'High Blend',
-                   '14': 'Dolby Surround', '15': 'Neo:X Cinema', '16': 'Neo:X Music'}
-LOOKUP['Z1DYN'] = {'description': 'Dolby digital dynamic range',
-                   '0': 'Normal', '1': 'Reduced', '2': 'Late Night'}
-LOOKUP['Z1DIA'] = {'description': 'Dolby digital dialog normalization (dB)'}
-
-
+# LOOKUP['Z1AIN'] = {'description': 'Audio input name'}
+# LOOKUP['Z1AIR'] = {'description': 'Audio input rate name'}
+# LOOKUP['Z1ALM'] = {'description': 'Audio listening mode',
+#                    '00': 'None', '01': 'AnthemLogic Movie', '02': 'AnthemLogic Music',
+#                    '03': 'PLIIx Movie', '04': 'PLIIx Music', '05': 'Neo:6 Cinema',
+#                    '06': 'Neo:6 Music', '07': 'All Channel Stereo',
+#                    '08': 'All Channel Mono', '09': 'Mono', '10': 'Mono-Academy',
+#                    '11': 'Mono (L)', '12': 'Mono (R)', '13': 'High Blend',
+#                    '14': 'Dolby Surround', '15': 'Neo:X Cinema', '16': 'Neo:X Music'}
+# LOOKUP['Z1DYN'] = {'description': 'Dolby digital dynamic range',
+#                    '0': 'Normal', '1': 'Reduced', '2': 'Late Night'}
+# LOOKUP['Z1DIA'] = {'description': 'Dolby digital dialog normalization (dB)'}
+#
+#
 # pylint: disable=too-many-instance-attributes, too-many-public-methods
 class AVR(asyncio.Protocol):
     """The Anthem AVR IP control protocol handler."""
@@ -163,7 +163,7 @@ class AVR(asyncio.Protocol):
         limit_low, limit_high = self.transport.get_write_buffer_limits()
         self.log.debug('Write buffer limits %d to %d', limit_low, limit_high)
 
-        self.command('ECH1')
+#***         self.command('ECH1')
         self.refresh_core()
 
     def data_received(self, data):
@@ -540,11 +540,11 @@ class AVR(asyncio.Protocol):
             :param arg1: setting
             :type arg1: boolean
         """
-        return self._get_boolean('ECH')
+#***         return self._get_boolean('ECH')
 
     @txstatus.setter
-    def txstatus(self, value):
-        self._set_boolean('ECH', value)
+#***     def txstatus(self, value):
+#***         self._set_boolean('ECH', value)
 
     @property
     def standby_control(self):
@@ -558,20 +558,21 @@ class AVR(asyncio.Protocol):
             :param arg1: setting
             :type arg1: boolean
         """
-        return self._get_boolean('SIP')
+#***            return self._get_boolean('SIP')
+  return 0
 
-    @standby_control.setter
+     @standby_control.setter
     def standby_control(self, value):
-        self._set_boolean('SIP', value)
+#***            self._set_boolean('SIP', value)
 
     @property
     def arc(self):
         """Current ARC (Anthem Room Correction) on or off (read/write)."""
-        return self._get_boolean('Z1ARC')
+        return self._get_boolean('Z1ARCVAL')
 
     @arc.setter
     def arc(self, value):
-        self._set_boolean('Z1ARC', value)
+        self._set_boolean('Z1ARCVAL', value)
 
     @property
     def mute(self):
@@ -596,10 +597,12 @@ class AVR(asyncio.Protocol):
         """Software version (read-only)."""
         return self._IDS or "Unknown Version"
 
-    @property
-    def region(self):
-        """Region (read-only)."""
-        return self._IDR or "Unknown Region"
+#***
+#***    @property
+#***    def region(self):
+#***        """Region (read-only)."""
+#***        return self._IDR or "Unknown Region"
+#***
 
     @property
     def build_date(self):
@@ -614,17 +617,17 @@ class AVR(asyncio.Protocol):
     @property
     def macaddress(self):
         """Network MCU MAC address (read-only)."""
-        return self._IDN or "00:00:00:00:00:00"
+#***        return self._IDN or "00:00:00:00:00:00"
 
-    @property
-    def audio_input_name(self):
-        """Current audio input format short description (read-only)."""
-        return self._Z1AIN or "Unknown"
-
-    @property
-    def audio_input_ratename(self):
-        """Current audio input format sample or bit rate (read-only)."""
-        return self._Z1AIR or "Unknown"
+    # @property
+    # def audio_input_name(self):
+    #     """Current audio input format short description (read-only)."""
+    #     return self._Z1AIN or "Unknown"
+    #
+    # @property
+    # def audio_input_ratename(self):
+    #     """Current audio input format sample or bit rate (read-only)."""
+    #     return self._Z1AIR or "Unknown"
 
     #
     # Read-only raw numeric properties
@@ -639,32 +642,32 @@ class AVR(asyncio.Protocol):
         except ValueError:
             return
 
-    @property
-    def dolby_dialog_normalization(self):
-        """Query Dolby Digital dialog normalization amount (read-only).
-
-        Returns value in dB of normalization (if applicable).
-        """
-        return self._get_integer('Z1DIA')
-
-    @property
-    def horizontal_resolution(self):
-        """Query active horizontal video resolution (in pixels)."""
-        return self._get_integer('Z1IRH')
-
-    @property
-    def vertical_resolution(self):
-        """Query active vertical video resolution (in pixels)."""
-        return self._get_integer('Z1IRV')
-
-    @property
-    def audio_input_bitrate(self):
-        """Query audio input bitrate (in kbps).
-
-        For Analog/PCM inputs this is equal to the sample rate multiplied by
-        the bit depth and the number of channels.
-        """
-        return self._get_integer('Z1BRT')
+    # @property
+    # def dolby_dialog_normalization(self):
+    #     """Query Dolby Digital dialog normalization amount (read-only).
+    #
+    #     Returns value in dB of normalization (if applicable).
+    #     """
+    #     return self._get_integer('Z1DIA')
+    #
+    # @property
+    # def horizontal_resolution(self):
+    #     """Query active horizontal video resolution (in pixels)."""
+    #     return self._get_integer('Z1IRH')
+    #
+    # @property
+    # def vertical_resolution(self):
+    #     """Query active vertical video resolution (in pixels)."""
+    #     return self._get_integer('Z1IRV')
+    #
+    # @property
+    # def audio_input_bitrate(self):
+    #     """Query audio input bitrate (in kbps).
+    #
+    #     For Analog/PCM inputs this is equal to the sample rate multiplied by
+    #     the bit depth and the number of channels.
+    #     """
+    #     return self._get_integer('Z1BRT')
 
     @property
     def audio_input_samplerate(self):
@@ -717,87 +720,87 @@ class AVR(asyncio.Protocol):
                 self.log.info('Switching panel brightness to '+str(number))
                 self.command('FPB'+str(number))
 
-    @property
-    def audio_listening_mode(self):
-        """Current audio listening mode (00-16) (read-write).
+    # @property
+    # def audio_listening_mode(self):
+    #     """Current audio listening mode (00-16) (read-write).
+    #
+    #     Audio Listening Mode: 00=None, 01=AnthemLogic-Movie,
+    #     02=AnthemLogic-Music, 03=PLIIx Movie, 04=PLIIx Music, 05=Neo:6 Cinema,
+    #     06=Neo:6 Music, 07=All Channel Stereo*, 08=All-Channel Mono*, 09=Mono*,
+    #     10=Mono-Academy*, 11=Mono(L)*, 12=Mono(R)*, 13=High Blend*, 14=Dolby
+    #     Surround, 15=Neo:X-Cinema, 16=Neo:X-Music, na=cycle to next applicable,
+    #     pa=cycle to previous applicable.  *Applicable to 2-channel source only.
+    #     Some options are not available in all models or under all
+    #     circumstances.
+    #     """
+    #     return self._get_multiprop('Z1ALM', mode='raw')
 
-        Audio Listening Mode: 00=None, 01=AnthemLogic-Movie,
-        02=AnthemLogic-Music, 03=PLIIx Movie, 04=PLIIx Music, 05=Neo:6 Cinema,
-        06=Neo:6 Music, 07=All Channel Stereo*, 08=All-Channel Mono*, 09=Mono*,
-        10=Mono-Academy*, 11=Mono(L)*, 12=Mono(R)*, 13=High Blend*, 14=Dolby
-        Surround, 15=Neo:X-Cinema, 16=Neo:X-Music, na=cycle to next applicable,
-        pa=cycle to previous applicable.  *Applicable to 2-channel source only.
-        Some options are not available in all models or under all
-        circumstances.
-        """
-        return self._get_multiprop('Z1ALM', mode='raw')
+    # @property
+    # def audio_listening_mode_text(self):
+    #     """Current audio listening mode (str) (read-only)."""
+    #     return self._get_multiprop('Z1ALM', mode='text')
+    # 
+    # @audio_listening_mode.setter
+    # def audio_listening_mode(self, number):
+    #     if isinstance(number, int):
+    #         if 0 <= number <= 16:
+    #             self.log.info('Switching audio listening mode to '+str(number))
+    #             self.command('Z1ALM'+str(number).zfill(2))
 
-    @property
-    def audio_listening_mode_text(self):
-        """Current audio listening mode (str) (read-only)."""
-        return self._get_multiprop('Z1ALM', mode='text')
-
-    @audio_listening_mode.setter
-    def audio_listening_mode(self, number):
-        if isinstance(number, int):
-            if 0 <= number <= 16:
-                self.log.info('Switching audio listening mode to '+str(number))
-                self.command('Z1ALM'+str(number).zfill(2))
-
-    @property
-    def dolby_dynamic_range(self):
-        """Current Dolby Dynamic Range setting (0-2) (read-write).
-
-        Applies to Dolby Digital 5.1 source only.
-
-        0=Normal, 1=Reduced, 2=Late Night.
-        """
-        return self._get_multiprop('Z1DYN', mode='raw')
-
-    @property
-    def dolby_dynamic_range_text(self):
-        """Current Dolby Dynamic Range setting (str) (read-only)."""
-        return self._get_multiprop('Z1DYN', mode='text')
-
-    @dolby_dynamic_range.setter
-    def dolby_dynamic_range(self, number):
-        if isinstance(number, int):
-            if 0 <= number <= 2:
-                self.log.info('Switching Dolby dynamic range to '+str(number))
-                self.command('Z1DYN'+str(number))
+    # @property
+    # def dolby_dynamic_range(self):
+    #     """Current Dolby Dynamic Range setting (0-2) (read-write).
+    #
+    #     Applies to Dolby Digital 5.1 source only.
+    #
+    #     0=Normal, 1=Reduced, 2=Late Night.
+    #     """
+    #     return self._get_multiprop('Z1DYN', mode='raw')
+    #
+    # @property
+    # def dolby_dynamic_range_text(self):
+    #     """Current Dolby Dynamic Range setting (str) (read-only)."""
+    #     return self._get_multiprop('Z1DYN', mode='text')
+    #
+    # @dolby_dynamic_range.setter
+    # def dolby_dynamic_range(self, number):
+    #     if isinstance(number, int):
+    #         if 0 <= number <= 2:
+    #             self.log.info('Switching Dolby dynamic range to '+str(number))
+    #             self.command('Z1DYN'+str(number))
 
     #
     # Read-only properties with raw and text options
     #
 
-    @property
-    def video_input_resolution(self):
-        """Current video input resolution (0-14) (read-only).
+    # @property
+    # def video_input_resolution(self):
+    #     """Current video input resolution (0-14) (read-only).
+    #
+    #     0=no input, 1=other, 2=1080p60, 3=1080p50, 4=1080p24, 5=1080i60,
+    #     6=1080i50, 7=720p60, 8=720p50, 9=576p50, 10=576i50, 11=480p60,
+    #     12=480i60, 13=3D, 14=4k
+    #     """
+    #     return self._get_multiprop('Z1VIR', mode='raw')
 
-        0=no input, 1=other, 2=1080p60, 3=1080p50, 4=1080p24, 5=1080i60,
-        6=1080i50, 7=720p60, 8=720p50, 9=576p50, 10=576i50, 11=480p60,
-        12=480i60, 13=3D, 14=4k
-        """
-        return self._get_multiprop('Z1VIR', mode='raw')
+    # @property
+    # def video_input_resolution_text(self):
+    #     """Current video input resolution (str) (read-only)."""
+    #     return self._get_multiprop('Z1VIR', mode='text')
 
-    @property
-    def video_input_resolution_text(self):
-        """Current video input resolution (str) (read-only)."""
-        return self._get_multiprop('Z1VIR', mode='text')
+    # @property
+    # def audio_input_channels(self):
+    #     """Current audio input channels (0-7) (read-only).
+    #
+    #     0=no input, 1=other, 2=mono (center channel only), 3=2-channel,
+    #     4=5.1-channel, 5=6.1-channel, 6=7.1-channel, 7=Atmos
+    #     """
+    #     return self._get_multiprop('Z1AIC', mode='raw')
 
-    @property
-    def audio_input_channels(self):
-        """Current audio input channels (0-7) (read-only).
-
-        0=no input, 1=other, 2=mono (center channel only), 3=2-channel,
-        4=5.1-channel, 5=6.1-channel, 6=7.1-channel, 7=Atmos
-        """
-        return self._get_multiprop('Z1AIC', mode='raw')
-
-    @property
-    def audio_input_channels_text(self):
-        """Current audio input channels (str) (read-only)."""
-        return self._get_multiprop('Z1AIC', mode='text')
+    # @property
+    # def audio_input_channels_text(self):
+    #     """Current audio input channels (str) (read-only)."""
+    #     return self._get_multiprop('Z1AIC', mode='text')
 
     @property
     def audio_input_format(self):
