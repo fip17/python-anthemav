@@ -30,6 +30,6 @@ setup(
     zip_safe=True,
 
     entry_points={
-        'console_scripts': [ 'anthemav_monitor = anthemav.tools:monitor', ]
+        'console_scripts': [ ' = anthemav.tools:monitor', ]
     }
 )
