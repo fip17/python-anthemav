@@ -558,12 +558,12 @@ class AVR(asyncio.Protocol):
             :param arg1: setting
             :type arg1: boolean
         """
-#***            return self._get_boolean('SIP')
-  return 0
+        return self._get_boolean('SIP')
+#***    return 0
 
-     @standby_control.setter
+    @standby_control.setter
     def standby_control(self, value):
-#***            self._set_boolean('SIP', value)
+           self._set_boolean('SIP', value)
 
     @property
     def arc(self):
