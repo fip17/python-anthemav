@@ -6,14 +6,15 @@ import logging
 
 import anthemav
 
-@asyncio.coroutine
-def test():
+#*** @asyncio.coroutine
+async def test():
     log = logging.getLogger(__name__)
 
     def log_callback(message):
         log.info('Callback invoked: %s' % message)
 
-    host = '127.0.0.1'
+#    host = '127.0.0.1'
+    host = '10.0.0.208'
     port = 14999
 
     log.info('Connecting to Anthem AVR at %s:%i' % (host, port))

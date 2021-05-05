@@ -49,6 +49,7 @@ def test():
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
-    loop = asyncio.get_event_loop()
-    asyncio.async(test())
-    loop.run_forever()
+ #***   loop = asyncio.get_event_loop()
+ #***   asyncio.async(test())
+ #***   loop.run_forever()
+asyncio.run(main())

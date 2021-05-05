@@ -35,7 +35,7 @@ LOOKUP['IDH'] = {'description': 'Hardware version'}
 LOOKUP['Z1INP'] = {'description': 'Zone 1 current input'}
 LOOKUP['Z1MUT'] = {'description': 'Zone 1 mute',
                    '0': 'Unmuted', '1': 'Muted'}
-  LOOKUP['Z1ARCVAL'] = {'description': 'Zone 1 ARC',
+LOOKUP['Z1ARCVAL'] = {'description': 'Zone 1 ARC',
                    '0': 'Off', '1': 'On'}
 #*** LOOKUP['Z1VIR'] = {'description': 'Video input resolution',
 #***                    '0': 'No video', '1': 'Other', '2': '1080p60', '3': '1080p50',
@@ -739,7 +739,7 @@ class AVR(asyncio.Protocol):
     # def audio_listening_mode_text(self):
     #     """Current audio listening mode (str) (read-only)."""
     #     return self._get_multiprop('Z1ALM', mode='text')
-    # 
+    #
     # @audio_listening_mode.setter
     # def audio_listening_mode(self, number):
     #     if isinstance(number, int):
